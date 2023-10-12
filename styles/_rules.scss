@@ -1,0 +1,87 @@
+$miniblock-color-new: #00b7f1;
+$miniblock-color-sale: #7ac751;
+
+@mixin miniblock {
+  position: absolute;
+  top: 0;
+  font-family: "Mulish", sans-serif;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 130%;
+  text-align: center;
+  letter-spacing: 0.008em;
+  color: #fff;
+  padding: 1px 9px;
+}
+
+@mixin chair {
+  font-family: "Mulish", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 130%;
+  letter-spacing: 0.008em;
+  text-transform: uppercase;
+  color: rgba(117, 117, 117, 0.71);
+  text-decoration: none;
+}
+
+@mixin product-links {
+  font-family: "Rubik", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 120%;
+  letter-spacing: 0.005em;
+  color: #555;
+  text-decoration: none;
+}
+
+@mixin price-actual {
+  font-family: "Mulish", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 120%;
+  text-align: center;
+  letter-spacing: 0.005em;
+  color: #7ac751;
+}
+
+@mixin price-old {
+  font-family: "Mulish", sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 120%;
+  text-align: center;
+  letter-spacing: 0.005em;
+  text-decoration-line: line-through;
+  color: #ccc;
+}
+
+/* ========== section-three-options ========== */
+
+@mixin three-options-description {
+  font-family: "Mulish", sans-serif;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 26px;
+  color: #555;
+}
+
+@mixin three-options-price {
+  font-family: "Mulish", sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 26px;
+  color: #7ac751;
+}
+
+@mixin three-options-link {
+  font-family: "Mulish", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #757575;
+  text-decoration: none;
+}
+
+/* ========== section-special-offer ========== */
+

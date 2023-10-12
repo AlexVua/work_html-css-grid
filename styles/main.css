@@ -1,0 +1,464 @@
+/* ========== section-three-options ========== */
+/* ========== section-special-offer ========== */
+* {
+  box-sizing: border-box;
+}
+
+image {
+  max-width: 100%;
+}
+
+.container {
+  max-width: 1170px;
+  margin: 0 auto;
+}
+
+/* ========== section-three-options ========== */
+.section-three-options {
+  padding: 50px 15px 120px;
+}
+.section-three-options .three-options {
+  display: grid;
+  grid-template-columns: 4fr 3fr;
+  grid-auto-rows: 511px;
+  -moz-column-gap: 19px;
+       column-gap: 19px;
+}
+@media all and (max-width: 768px) {
+  .section-three-options .three-options {
+    grid-template-columns: 1fr;
+  }
+}
+.section-three-options .three-options .about-modern {
+  padding: 49px 0 0 31px;
+  background-image: url(../images/modern_furniture.png);
+  background-repeat: no-repeat;
+  background-position: 83% 100%;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+}
+@media all and (max-width: 768px) {
+  .section-three-options .three-options .about-modern {
+    margin-bottom: 17px;
+  }
+}
+.section-three-options .three-options .about-modern__description {
+  font-family: "Mulish", sans-serif;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 26px;
+  color: #555;
+}
+.section-three-options .three-options .about-modern__price {
+  font-family: "Mulish", sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 26px;
+  color: #7ac751;
+}
+.section-three-options .three-options .about-modern__link {
+  font-family: "Mulish", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #757575;
+  text-decoration: none;
+}
+.section-three-options .three-options .right-blocks-three-options {
+  display: grid;
+  row-gap: 17px;
+}
+.section-three-options .three-options .right-blocks-three-options .about-geometric {
+  padding: 52px 0 0 24px;
+  background-image: url(../images/geometric_bookcase.png);
+  background-repeat: no-repeat;
+  background-position: 100% 100%;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  row-gap: 8px;
+}
+.section-three-options .three-options .right-blocks-three-options .about-geometric__description {
+  font-family: "Mulish", sans-serif;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 26px;
+  color: #555;
+}
+.section-three-options .three-options .right-blocks-three-options .about-geometric__price {
+  font-family: "Mulish", sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 26px;
+  color: #7ac751;
+}
+.section-three-options .three-options .right-blocks-three-options .about-geometric__link {
+  font-family: "Mulish", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #757575;
+  text-decoration: none;
+}
+.section-three-options .three-options .right-blocks-three-options .about-minimal {
+  padding: 37px 0 0 24px;
+  background-image: url(../images/minimal_sofa.png);
+  background-repeat: no-repeat;
+  background-position: 100% 100%;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  row-gap: 8px;
+}
+.section-three-options .three-options .right-blocks-three-options .about-minimal__description {
+  font-family: "Mulish", sans-serif;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 26px;
+  color: #555;
+}
+.section-three-options .three-options .right-blocks-three-options .about-minimal__price {
+  font-family: "Mulish", sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 26px;
+  color: #7ac751;
+}
+.section-three-options .three-options .right-blocks-three-options .about-minimal__link {
+  font-family: "Mulish", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #757575;
+  text-decoration: none;
+}
+
+/* ========== section-trending ========== */
+.section-trending {
+  padding: 0 15px;
+}
+.section-trending .trending__title {
+  margin-bottom: 45px;
+  font-family: "Mulish", sans-serif;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 45px;
+  color: #555;
+  text-align: center;
+}
+.section-trending .trending .trending-links {
+  margin: 0 auto 73px;
+  max-width: 572px;
+  display: flex;
+  justify-content: space-between;
+  -moz-column-gap: 20px;
+       column-gap: 20px;
+}
+.section-trending .trending .trending-links__link {
+  font-family: "Mulish", sans-serif;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 30px;
+  color: #c2c2c2;
+  text-decoration: none;
+}
+.section-trending .trending .trending-links__link:hover {
+  color: #7ac751;
+}
+@media all and (max-width: 480px) {
+  .section-trending .trending .trending-links__link {
+    font-size: 20px;
+    line-height: 24px;
+  }
+}
+.section-trending .trending .trending-products {
+  display: grid;
+  justify-items: center;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  -moz-column-gap: 30px;
+       column-gap: 30px;
+  row-gap: 45px;
+}
+.section-trending .trending .trending-products .chair .chair__image {
+  margin-bottom: 15px;
+  position: relative;
+}
+.section-trending .trending .trending-products .chair .chair__image .miniblock {
+  position: absolute;
+  top: 0;
+  font-family: "Mulish", sans-serif;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 130%;
+  text-align: center;
+  letter-spacing: 0.008em;
+  color: #fff;
+  padding: 1px 9px;
+  left: 1px;
+  border-radius: 0px 0px 5px 0px;
+}
+.section-trending .trending .trending-products .chair .chair__image .miniblock__new {
+  border: 1px solid #00b7f1;
+  background-color: #00b7f1;
+}
+.section-trending .trending .trending-products .chair .chair__image .miniblock__sale {
+  border: 1px solid #7ac751;
+  background-color: #7ac751;
+}
+.section-trending .trending .trending-products .chair .chair__image .image-options {
+  position: absolute;
+  right: -20px;
+  bottom: 14px;
+  display: grid;
+  align-items: center;
+  justify-items: end;
+  grid-template-columns: 273px;
+  grid-template-rows: repeat(4, 46px);
+  transform: translateX(-19px);
+  opacity: 0;
+}
+.section-trending .trending .trending-products .chair .chair__image .image-options:hover {
+  opacity: 1;
+  transition-duration: 1s;
+}
+.section-trending .trending .trending-products .chair .chair__image .image-options .option {
+  transform: translateX(22px);
+  cursor: pointer;
+}
+.section-trending .trending .trending-products .chair .chair-inform {
+  display: grid;
+  justify-items: start;
+  align-items: center;
+  row-gap: 9px;
+  grid-template-columns: 57px 71px 71px 71px;
+  grid-template-areas: "chair chair chair chair" "title title title title" "actual old . rating";
+}
+.section-trending .trending .trending-products .chair__link-chair {
+  grid-area: chair;
+  font-family: "Mulish", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 130%;
+  letter-spacing: 0.008em;
+  text-transform: uppercase;
+  color: rgba(117, 117, 117, 0.71);
+  text-decoration: none;
+}
+.section-trending .trending .trending-products .chair__link-product {
+  grid-area: title;
+  font-family: "Rubik", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 120%;
+  letter-spacing: 0.005em;
+  color: #555;
+  text-decoration: none;
+}
+.section-trending .trending .trending-products .chair__price-actual {
+  grid-area: actual;
+  font-family: "Mulish", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 120%;
+  text-align: center;
+  letter-spacing: 0.005em;
+  color: #7ac751;
+}
+.section-trending .trending .trending-products .chair__price-old {
+  grid-area: old;
+  font-family: "Mulish", sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 120%;
+  text-align: center;
+  letter-spacing: 0.005em;
+  -webkit-text-decoration-line: line-through;
+          text-decoration-line: line-through;
+  color: #ccc;
+}
+.section-trending .trending .trending-products .chair__rating {
+  grid-area: rating;
+  cursor: pointer;
+}
+
+/* ========== radio-buttons ========== */
+.radio-buttons {
+  padding-bottom: 176px;
+  position: relative;
+  text-align: center;
+}
+.radio-buttons .rating {
+  margin: 0 20px;
+}
+.radio-buttons .rating::before {
+  content: "";
+  display: inline-block;
+  position: absolute;
+  top: 58px;
+  width: 24px;
+  height: 24px;
+  background: url(../images/circle_grey.svg);
+  background-position: center;
+  background-size: 100% 100%;
+  cursor: pointer;
+}
+.radio-buttons input {
+  width: 0;
+  height: 0;
+  margin: 0;
+  visibility: hidden;
+}
+.radio-buttons input:checked + .rating::before {
+  background: url(../images/circle_green.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100% 100%;
+}
+
+/* ========== section-special-offer ========== */
+.section-special-offer {
+  padding: 0 15px 120px;
+}
+.section-special-offer .special-offer-title {
+  margin-bottom: 60px;
+  text-align: center;
+  font-family: "Mulish", sans-serif;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 45px;
+  text-transform: uppercase;
+  color: #555;
+}
+.section-special-offer .special-offer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-auto-rows: 249px;
+  -moz-column-gap: 30px;
+       column-gap: 30px;
+}
+@media all and (max-width: 768px) {
+  .section-special-offer .special-offer {
+    grid-template-columns: 1fr;
+  }
+}
+.section-special-offer .special-offer .living-room {
+  padding: 30px 0 0 24px;
+  position: relative;
+  background-image: url(../images/living-room.png);
+  background-repeat: no-repeat;
+  background-position: 100% 100%;
+  background-size: cover;
+}
+@media all and (max-width: 768px) {
+  .section-special-offer .special-offer .living-room {
+    margin-bottom: 17px;
+  }
+}
+.section-special-offer .special-offer .modern-chair {
+  padding: 30px 0 0 24px;
+  position: relative;
+  background-image: url(../images/modern-chair.png);
+  background-repeat: no-repeat;
+  background-position: 100% 100%;
+  background-size: cover;
+}
+.section-special-offer .special-offer__description {
+  margin-bottom: 11px;
+  font-family: "Mulish", sans-serif;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 28px;
+  color: #555;
+}
+.section-special-offer .special-offer__text {
+  margin-bottom: 20px;
+  max-width: 227px;
+  font-family: "Mulish", sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+  color: #757575;
+}
+.section-special-offer .special-offer__price-actual {
+  margin-right: 7px;
+  font-family: "Mulish", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 120%;
+  text-align: center;
+  letter-spacing: 0.005em;
+  color: #7ac751;
+}
+.section-special-offer .special-offer__price-old {
+  margin-right: 19px;
+  font-family: "Mulish", sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 120%;
+  text-align: center;
+  letter-spacing: 0.005em;
+  -webkit-text-decoration-line: line-through;
+          text-decoration-line: line-through;
+  color: #ccc;
+}
+.section-special-offer .special-offer__link {
+  font-family: "Mulish", sans-serif;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 15px;
+  text-decoration: none;
+  color: #fff;
+  border: 1px solid #7ac751;
+  background-color: #7ac751;
+  padding: 7px 10px;
+}
+.section-special-offer .special-offer .block-time {
+  margin-top: 29px;
+  display: flex;
+  -moz-column-gap: 18px;
+       column-gap: 18px;
+}
+.section-special-offer .special-offer__time {
+  display: inline-flex;
+  flex-direction: column;
+  border: 1px solid #7ac751;
+  border-radius: 100%;
+  background-color: #7ac751;
+  padding: 5px 10px;
+}
+.section-special-offer .special-offer__time .number {
+  font-family: "Rubik", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 120%;
+  text-align: center;
+  color: #fff;
+}
+.section-special-offer .special-offer__time .unit {
+  font-family: "Rubik", sans-serif;
+  font-weight: 400;
+  font-size: 6px;
+  line-height: 120%;
+  text-align: center;
+  letter-spacing: 0.005em;
+  text-transform: uppercase;
+  color: #fff;
+}
+.section-special-offer .special-offer__miniblock {
+  position: absolute;
+  top: 0;
+  font-family: "Mulish", sans-serif;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 130%;
+  text-align: center;
+  letter-spacing: 0.008em;
+  color: #fff;
+  padding: 1px 9px;
+  border: 1px solid #00b7f1;
+  background-color: #00b7f1;
+  right: 1px;
+  border-radius: 0px 0px 0px 5px;
+}/*# sourceMappingURL=main.css.map */
